@@ -11,4 +11,3 @@ recipe           "perlbrew::default", "Installs/updates perlbrew"
   supports os
 end
 
-depends "build-essential"
