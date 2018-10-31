@@ -10,4 +10,4 @@ recipe           "perlbrew::default", "Installs/updates perlbrew"
 %w{ debian ubuntu centos amazon }.each do |os|
   supports os
 end
-
+depends "build-essential"
